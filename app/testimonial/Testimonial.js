@@ -9,7 +9,7 @@ const Testimonial = () => {
         <div className='py-9 bg-[aliceblue] flex'>
             <div className='my-auto mx-6'><button className="btn btn-circle btn-sm bg-[#D0D5DE]">&#11164;</button></div>
             <div className='my-auto'>
-                <div className='text-center mx-auto my-4 text-2xl font-bold w-4/5 md:w-3/5 lg:w-1/2'><p>"{data.testimonial.text}"</p></div>
+                <div className='text-center mx-auto my-4 text-2xl font-bold w-4/5 md:w-3/5 lg:w-1/2'><p>&quot;{data.testimonial.text}&quot;</p></div>
                 <div className='flex justify-center my-4'>
                     <div className="avatar mx-2">
                         <div className="size-10">

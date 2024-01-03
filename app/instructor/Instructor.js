@@ -24,17 +24,17 @@ const Instructor = () => {
                     </div>
                     <div className='my-8 text-sm font-semibold flex place-items-start'>
                         {data.instructor.social_media.facebook ? <div className='w-1/4 flex items-center'>
-                            <div className='size-6 mx-2'><Image src={fb_logo}></Image></div>
+                            <div className='size-6 mx-2'><Image src={fb_logo} alt='fb logo'></Image></div>
                             Facebook
                         </div> : null}
                         {data.instructor.social_media.twitter ? <div className='w-1/4 flex items-center'>
-                            <div className='size-6 mx-2'><Image src={twt_logo}></Image></div>
+                            <div className='size-6 mx-2'><Image src={twt_logo} alt='twt logo'></Image></div>
                             Twitter</div> : null}
                         {data.instructor.social_media.youtube ? <div className='w-1/4 flex items-center'>
-                            <div className='size-6 mx-2'><Image src={yt_logo}></Image></div>
+                            <div className='size-6 mx-2'><Image src={yt_logo} alt='yt logo'></Image></div>
                             Youtube</div> : null}
                         {data.instructor.social_media.instagram ? <div className='w-1/4 flex items-center'>
-                            <div className='size-6 mx-2'><Image src={ig_logo}></Image></div>
+                            <div className='size-6 mx-2'><Image src={ig_logo} alt='ig logo'></Image></div>
                             Instagram</div> : null}
                     </div>
                 </div>

@@ -6,7 +6,7 @@ import heroImage from '../assets/home_image.jpeg'
 const HeroSection  = () => {
     return (
         <div className="w-full relative">
-            <Image src={heroImage} className='w-[100vh] md:w-full sm:w-full xs:w-full object-cover'></Image>
+            <Image src={heroImage} alt='hero image' className='w-[100vh] md:w-full sm:w-full xs:w-full object-cover'></Image>
 
             <div className='w-full absolute top-0 h-full z-10 bg-gradient-to-r from-[#161616]'></div>
 
