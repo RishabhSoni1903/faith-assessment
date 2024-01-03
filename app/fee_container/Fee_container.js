@@ -12,7 +12,7 @@ const FeeContainer = () => {
                 <div className='text-4xl font-semibold'>{data.course.fee.currency === "INR" ? <span>&#8377;</span> : $} {data.course.fee.amount}</div>
             </div>
             <div className='my-6'>
-                <div className='text-xl font-semibold'>What's included:</div>
+                <div className='text-xl font-semibold'>What&apos;s included:</div>
                 <div className='my-3'>
                     <div className='my-1 flex'><span><Image src={videoIcon} alt='chat icon' className='size-6 pr-2'></Image></span>{data.course.inclusions.on_demand_videos} on-demand videos</div>
                     {data.course.inclusions.live_qa_sessions ? <div className='my-1 flex'> <span><Image src={chatIcon} alt='chat icon' className='size-6 pr-2'></Image></span> Live Q&A sessions with {data.instructor.name}</div> : null}
